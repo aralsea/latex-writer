@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+  algorithm:
+    container_name: latex-writer
+    image: paperist/texlive-ja
+    build: ./
+    volumes:
+      - ../sources:/src
+      - ./.vscode:/src/.vscode
+    stdin_open: true
+    tty: true

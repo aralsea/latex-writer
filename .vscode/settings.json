@@ -3,18 +3,18 @@
     "[tex]": {
         // スニペット補完中にも補完を使えるようにする
         "editor.suggest.snippetsPreventQuickSuggestions": false,
-        // インデント幅を2にする
-        "editor.tabSize": 2
+        // インデント幅を4にする
+        "editor.tabSize": 4
     },
     "[latex]": {
         // スニペット補完中にも補完を使えるようにする
         "editor.suggest.snippetsPreventQuickSuggestions": false,
-        // インデント幅を2にする
-        "editor.tabSize": 2
+        // インデント幅を4にする
+        "editor.tabSize": 4
     },
     "[bibtex]": {
-        // インデント幅を2にする
-        "editor.tabSize": 2
+        // インデント幅を4にする
+        "editor.tabSize": 4
     },
     // ---------- LaTeX Workshop ----------
     // 使用パッケージのコマンドや環境の補完を有効にする
@@ -69,4 +69,5 @@
             ],
         },
     ],
+    "latex-workshop.latexindent.path": "/usr/bin/latexindent",
 }

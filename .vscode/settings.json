@@ -10,7 +10,9 @@
         // スニペット補完中にも補完を使えるようにする
         "editor.suggest.snippetsPreventQuickSuggestions": false,
         // インデント幅を4にする
-        "editor.tabSize": 4
+        "editor.tabSize": 4,
+        "files.trimFinalNewlines": true,
+        "files.trimTrailingWhitespace": true,
     },
     "[bibtex]": {
         // インデント幅を4にする
@@ -70,4 +72,13 @@
         },
     ],
     "latex-workshop.latexindent.path": "/usr/bin/latexindent",
+    "latex-workshop.latexindent.args": [
+        "%TMPFILE%",
+        "-c=%DIR%/",
+        // "-g=%DOCFILE%-indent.log",
+        "-r",
+        // "-l",
+        // "-y=defaultIndent: '%INDENT%'"
+    ],
+    "latex-workshop.bibtex-format.tab": "4 spaces"
 }

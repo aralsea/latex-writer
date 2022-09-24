@@ -21,6 +21,7 @@
     // ---------- LaTeX Workshop ----------
     // 使用パッケージのコマンドや環境の補完を有効にする
     "latex-workshop.intellisense.package.enabled": true,
+    "latex-workshop.latex.autoClean.run": "onBuilt",
     // 生成ファイルを削除するときに対象とするファイル
     // デフォルト値に "*.synctex.gz" を追加
     "latex-workshop.latex.clean.fileTypes": [
@@ -48,8 +49,9 @@
         "*.dvi",
         "*.synctex.gz"
     ],
+    "latex-workshop.latex.clean.enabled": true,
     // 生成ファイルを "out" ディレクトリに吐き出す
-    "latex-workshop.latex.outDir": "out",
+    "latex-workshop.latex.outDir": "./",
     // ビルドのレシピ
     "latex-workshop.latex.recipes": [
         {

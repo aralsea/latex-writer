@@ -42,7 +42,6 @@
         "*.gls",
         "*.ist",
         "*.fls",
-        "*.log",
         "*.fdb_latexmk",
         "*.snm",
         "*.nav",

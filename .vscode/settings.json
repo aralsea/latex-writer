@@ -46,7 +46,6 @@
         "*.snm",
         "*.nav",
         "*.dvi",
-        "*.synctex.gz"
     ],
     "latex-workshop.latex.clean.enabled": true,
     // 生成ファイルを "out" ディレクトリに吐き出す
@@ -81,5 +80,8 @@
         // "-l",
         // "-y=defaultIndent: '%INDENT%'"
     ],
-    "latex-workshop.bibtex-format.tab": "4 spaces"
+    "latex-workshop.bibtex-format.tab": "4 spaces",
+    "latex-workshop.synctex.synctexjs.enabled": true,
+    "latex-workshop.synctex.afterBuild.enabled": true,
+    "latex-workshop.view.pdf.viewer": "tab",
 }

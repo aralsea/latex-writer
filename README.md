@@ -5,7 +5,7 @@ tex書く用のコンテナ
 1. latex作業用のディレクトリ `workdir` を用意
 2. texソースをおくディレクトリ `sources` を `workdir` 配下に作成
 3.  `workdir` 配下にこのリポジトリをpull
-4. docker desktop を起動した状態で
+4. pull したディレクトリ内で
 ```shell
 docker compose up -d
 ```
